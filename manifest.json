@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Auto moodle",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://moodle2021.gsosfm.cz/mod/quiz/attempt.php?*"
+      ],
+      "js": [
+        "index.min.js"
+      ]
+    }
+  ]
+}

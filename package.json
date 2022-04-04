@@ -1,0 +1,14 @@
+{
+  "name": "auto_moodle",
+  "version": "1.0.0",
+  "description": "Auto complete moodle tests",
+  "main": "script.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "borecjeborec1",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
